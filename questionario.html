@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Questionario attivit&agrave accoglienza</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-center" style="background-color:black;text-align:left;">
+  <div class="container-fluid" >
+    <div class="navbar-header"> 
+      <img src='logobadoni.png' width='55%' height='55%' align='left'>
+    </div>
+	<p style="color:white;font-size:30px;"><br>QUESTIONARIO SULLE ATTIVITA' D'ACCOGLIENZA</p>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-8 text-left"> 
+      <h1>Benvenuto!</h1>
+      <p>Le attivit&agrave proposte nei primi giorni di quest'anno scolastico hanno avuto lo scopo di <strong>accoglierti</strong>, rendendo meno brusco l'approccio con la Scuola Superiore.<br>Ora chiediamo la tua seria collaborazione nel rispondere alle domande proposte.</p>
+      <hr>
+	  <form>
+      <p>prima domanda: 
+					<br><input type="radio" value="1" id="r1"> prima risposta
+                    <br><input type="radio" value="2" id="r2"> seconda risposta
+					<br><input type="radio" value="3" id="r3"> terza risposta
+					<br><input type="radio" value="4" id="r4"> quarta risposta</p>
+	  <p>seconda domanda: 
+					<br><input type="radio" value="1" id="r5"> prima risposta
+                    <br><input type="radio" value="2" id="r6"> seconda risposta
+					<br><input type="radio" value="3" id="r7"> terza risposta
+					<br><input type="radio" value="4" id="r8"> quarta risposta</p>
+	  <p>terza domanda: 
+					<br><input type="radio" value="1" id="r9"> prima risposta
+                    <br><input type="radio" value="2" id="r10"> seconda risposta
+					<br><input type="radio" value="3" id="r11"> terza risposta
+					<br><input type="radio" value="4" id="r12"> quarta risposta</p>
+	  </form>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>A cura di Colombo Luca, Vismara Luca e Celaj Andrea.</p>
+</footer>
+
+</body>
+</html>
